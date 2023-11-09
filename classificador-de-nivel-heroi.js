@@ -1,13 +1,11 @@
-let nome = "Leah"
-let xp = 0
-let nivel = 0
+let nivel = ""
 let texto1 = document.getElementById("texto1")
 let texto2 = document.getElementById("texto2")
 let nomeHtml = document.getElementById("nome")
 let nivelHtml = document.getElementById("nivel")
 
-nome = prompt("Nome do Herói")
-xp = prompt("Quantidade de XP")
+let nome = prompt("Nome do Herói")
+let xp = prompt("Quantidade de XP")
 
 if (xp <= 1000){
     nivel = "de Ferro";
