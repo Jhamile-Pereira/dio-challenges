@@ -9,6 +9,7 @@ let texto2 = document.getElementById("texto2")
 let saldoHtml = document.getElementById("saldo")
 let rankHtml = document.getElementById("rank")
 
+/// Condiciona a partir do saldo resultante e retorna o rank do herói
 function rankear(saldo){
     var rank = ""
     if (saldo <= 10){
@@ -41,7 +42,7 @@ function rankear(saldo){
     return rank
 }
 
-///Retorna 
+///Retorna a diferença de vitórias e derrotas
 function calculatorRank(vitorias, derrotas){
     let subs = vitorias - derrotas
     return (subs)
