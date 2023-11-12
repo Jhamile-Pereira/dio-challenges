@@ -51,7 +51,7 @@ function calculatorRank(vitorias, derrotas){
 ///Modifica texto HTML para apresentar variáveis
 texto1.innerHTML = "O Herói tem saldo de  "
 saldoHtml.innerHTML = saldo
-texto2.innerHTML = " e está no nível "
+texto2.innerHTML = " e está no rank "
 rankHtml.innerHTML = rank
 
 /// Mostra saldo e rank no console
